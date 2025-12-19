@@ -1,5 +1,5 @@
 import supertest from 'supertest'
-import { afterAll, expect, test } from 'vitest'
+import { afterAll, expect, test } from '@voidzero-dev/vite-plus/test'
 
 import { usersData } from '../mockData.js'
 import app from '../src/app.js'

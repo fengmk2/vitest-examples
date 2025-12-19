@@ -1,4 +1,4 @@
-import { expect, test } from 'vitest'
+import { expect, test } from '@voidzero-dev/vite-plus/test'
 import getPrimeNumber from '../src/prime-number'
 
 const BITS = process.env.CI ? 8 : 62

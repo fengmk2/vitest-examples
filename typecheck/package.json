@@ -5,18 +5,26 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "test": "vitest",
-    "test:ui": "vitest --ui",
-    "test:run": "vitest run"
+    "test": "vite test",
+    "test:ui": "vite test --ui",
+    "test:run": "vite test run"
   },
   "devDependencies": {
     "@types/node": "^20.19.17",
     "@vitest/ui": "latest",
     "typescript": "^5.9.2",
-    "vite": "latest",
-    "vitest": "latest"
+    "vite": "npm:@voidzero-dev/vite-plus-core@latest",
+    "vitest": "npm:@voidzero-dev/vite-plus-test@latest",
+    "@voidzero-dev/vite-plus": "latest"
   },
   "stackblitz": {
     "startCommand": "npm run test:ui"
+  },
+  "packageManager": "pnpm@10.26.1",
+  "pnpm": {
+    "overrides": {
+      "vite": "npm:@voidzero-dev/vite-plus-core@latest",
+      "vitest": "npm:@voidzero-dev/vite-plus-test@latest"
+    }
   }
 }

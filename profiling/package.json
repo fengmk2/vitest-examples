@@ -4,10 +4,18 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "test": "vitest"
+    "test": "vite test"
   },
   "devDependencies": {
-    "vite": "latest",
-    "vitest": "latest"
+    "vite": "npm:@voidzero-dev/vite-plus-core@latest",
+    "vitest": "npm:@voidzero-dev/vite-plus-test@latest",
+    "@voidzero-dev/vite-plus": "latest"
+  },
+  "packageManager": "pnpm@10.26.1",
+  "pnpm": {
+    "overrides": {
+      "vite": "npm:@voidzero-dev/vite-plus-core@latest",
+      "vitest": "npm:@voidzero-dev/vite-plus-test@latest"
+    }
   }
 }

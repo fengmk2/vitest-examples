@@ -4,9 +4,9 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "test": "vitest",
-    "test:ui": "vitest --ui",
-    "test:run": "vitest run"
+    "test": "vite test",
+    "test:ui": "vite test --ui",
+    "test:run": "vite test run"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.8.0",
@@ -20,13 +20,15 @@
     "react": "^19.1.1",
     "supertest": "^6.3.4",
     "tsx": "^4.20.5",
-    "vite": "latest",
-    "vitest": "latest"
+    "vite": "catalog:",
+    "vitest": "catalog:",
+    "@voidzero-dev/vite-plus": "catalog:"
   },
   "workspaces": [
     "packages/*"
   ],
   "stackblitz": {
     "startCommand": "npm run test:ui"
-  }
+  },
+  "packageManager": "pnpm@10.26.1"
 }

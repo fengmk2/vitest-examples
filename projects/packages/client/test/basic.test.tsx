@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react'
 import { userEvent } from '@testing-library/user-event'
 import React from 'react'
-import { expect, test } from 'vitest'
+import { expect, test } from '@voidzero-dev/vite-plus/test'
 import Link from '../components/Link.js'
 
 test('Link changes the state when hovered', async () => {

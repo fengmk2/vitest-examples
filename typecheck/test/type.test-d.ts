@@ -1,4 +1,4 @@
-import { expect, expectTypeOf, test } from 'vitest'
+import { expect, expectTypeOf, test } from '@voidzero-dev/vite-plus/test'
 
 test('type', () => {
   expectTypeOf(1).toEqualTypeOf(2)
