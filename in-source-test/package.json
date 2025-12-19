@@ -3,11 +3,19 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "test": "vitest",
-    "test:run": "vitest run"
+    "test": "vite test",
+    "test:run": "vite test run"
   },
   "devDependencies": {
     "typescript": "^5.9.2",
-    "vitest": "latest"
+    "vitest": "npm:@voidzero-dev/vite-plus-test@latest",
+    "@voidzero-dev/vite-plus": "latest"
+  },
+  "packageManager": "pnpm@10.26.1",
+  "pnpm": {
+    "overrides": {
+      "vite": "npm:@voidzero-dev/vite-plus-core@latest",
+      "vitest": "npm:@voidzero-dev/vite-plus-test@latest"
+    }
   }
 }

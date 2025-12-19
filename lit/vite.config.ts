@@ -1,7 +1,7 @@
 /// <reference types="vitest/config" />
 
-import { playwright } from '@vitest/browser/providers/playwright'
-import { defineConfig } from 'vite'
+import { playwright } from '@voidzero-dev/vite-plus/test/browser/providers/playwright'
+import { defineConfig } from '@voidzero-dev/vite-plus'
 
 // https://vitejs.dev/config/
 export default defineConfig({

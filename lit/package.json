@@ -7,23 +7,30 @@
     "types"
   ],
   "scripts": {
-    "coverage": "vitest run --coverage",
-    "dev": "vite",
-    "test": "vitest",
-    "list": "vitest list",
-    "test:ui": "vitest --ui"
+    "coverage": "vite test run --coverage",
+    "dev": "vite dev",
+    "test": "vite test",
+    "list": "vite test list",
+    "test:ui": "vite test --ui"
   },
   "dependencies": {
     "lit": "^3.3.1"
   },
   "devDependencies": {
-    "@vitest/browser": "latest",
     "jsdom": "latest",
     "playwright": "^1.55.0",
-    "vite": "latest",
-    "vitest": "latest"
+    "vite": "npm:@voidzero-dev/vite-plus-core@latest",
+    "vitest": "npm:@voidzero-dev/vite-plus-test@latest",
+    "@voidzero-dev/vite-plus": "latest"
   },
   "stackblitz": {
     "startCommand": "npm run test:ui"
+  },
+  "packageManager": "pnpm@10.26.1",
+  "pnpm": {
+    "overrides": {
+      "vite": "npm:@voidzero-dev/vite-plus-core@latest",
+      "vitest": "npm:@voidzero-dev/vite-plus-test@latest"
+    }
   }
 }

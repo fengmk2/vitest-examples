@@ -1,5 +1,5 @@
-import { page } from '@vitest/browser/context'
-import { beforeEach, describe, expect, it } from 'vitest'
+import { page } from '@voidzero-dev/vite-plus/test/browser/context'
+import { beforeEach, describe, expect, it } from '@voidzero-dev/vite-plus/test'
 
 import '../src/my-button.js'
 
