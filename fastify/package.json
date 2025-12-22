@@ -15,9 +15,9 @@
     "fastify": "^5.6.0",
     "supertest": "^6.3.4",
     "tsx": "^4.20.5",
-    "vite": "npm:@voidzero-dev/vite-plus-core@latest",
-    "vitest": "npm:@voidzero-dev/vite-plus-test@latest",
-    "@voidzero-dev/vite-plus": "latest"
+    "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-e041cfd7608497e4e48c37868d3810ce1a37e943",
+    "vitest": "npm:@voidzero-dev/vite-plus-test@0.0.0-e041cfd7608497e4e48c37868d3810ce1a37e943",
+    "@voidzero-dev/vite-plus": "0.0.0-e041cfd7608497e4e48c37868d3810ce1a37e943"
   },
   "stackblitz": {
     "startCommand": "npm run test:ui"
@@ -25,8 +25,8 @@
   "packageManager": "pnpm@10.26.1",
   "pnpm": {
     "overrides": {
-      "vite": "npm:@voidzero-dev/vite-plus-core@latest",
-      "vitest": "npm:@voidzero-dev/vite-plus-test@latest"
+      "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-e041cfd7608497e4e48c37868d3810ce1a37e943",
+      "vitest": "npm:@voidzero-dev/vite-plus-test@0.0.0-e041cfd7608497e4e48c37868d3810ce1a37e943"
     }
   }
 }

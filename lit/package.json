@@ -19,9 +19,9 @@
   "devDependencies": {
     "jsdom": "latest",
     "playwright": "^1.55.0",
-    "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-2fa214c1c9a660e338e5f9d938c52316ed926a52",
-    "vitest": "npm:@voidzero-dev/vite-plus-test@0.0.0-2fa214c1c9a660e338e5f9d938c52316ed926a52",
-    "@voidzero-dev/vite-plus": "0.0.0-2fa214c1c9a660e338e5f9d938c52316ed926a52"
+    "vite": "npm:@voidzero-dev/vite-plus-core@latest",
+    "vitest": "npm:@voidzero-dev/vite-plus-test@latest",
+    "@voidzero-dev/vite-plus": "latest"
   },
   "stackblitz": {
     "startCommand": "npm run test:ui"
@@ -29,8 +29,8 @@
   "packageManager": "pnpm@10.26.1",
   "pnpm": {
     "overrides": {
-      "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-2fa214c1c9a660e338e5f9d938c52316ed926a52",
-      "vitest": "npm:@voidzero-dev/vite-plus-test@0.0.0-2fa214c1c9a660e338e5f9d938c52316ed926a52"
+      "vite": "npm:@voidzero-dev/vite-plus-core@latest",
+      "vitest": "npm:@voidzero-dev/vite-plus-test@latest"
     }
   }
 }
